@@ -19,8 +19,8 @@ line(katz_deli)
 
 def line_simple(array) 
   current_line = "The simple line is currently:"
-  array.each.with_index(1) do |value, indexemus|  
-    current_line << " #{indexemus}. #{value},"    
+  array.each.with_index(1) do |value, number|  
+    current_line << " #{number}. #{value},"    
   end 
   puts current_line
 end 
@@ -47,5 +47,3 @@ end
 
 puts now_serving(katz_deli)
 puts katz_deli
-
-
